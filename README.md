@@ -49,19 +49,19 @@ During the setup and running of the Docker container, I encountered the followin
 Here are relevant screenshots:
 
 ### Docker Running Container
-![Docker Running Containers](Screenshots/Running containers.png)
+![Docker Running Containers](Screenshots/Running%20containers.png)
 
 ### App Running in Browser
-![App Running in Browser](Screenshots/Browser showing running Application.png)
+![App Running in Browser](Screenshots/Browser%20showing%20running%20Application.png)
 
 ### Logs of the requests
-![Logs of the requests](Screenshots/Logs of the requests.png)
+![Logs of the requests](Screenshots/Logs%20of%20the%20requests.png)
 
 ### Terminal showing created containers
-![Terminal showing created containers](Screenshots/Terminal showing created containers.png)
+![Terminal showing created containers](Screenshots/Terminal%20showing%20created%20containers.png)
 
 ### HTML Error Screenshot
-![HTML Error Screenshot](Screenshots/Error encountered due to known html file.png)
+![HTML Error Screenshot](Screenshots/Error%20encountered%20due%20to%20known%20html%20file.png)
 
-### Project File on docker
-![Project File on docker](Screenshots/Project opened in docker.png)
+### Project File on Docker
+![Project File on Docker](Screenshots/Project%20opened%20in%20docker.png)
