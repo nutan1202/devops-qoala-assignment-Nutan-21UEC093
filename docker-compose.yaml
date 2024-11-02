@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx-image  # Should match the image name that we built
+    ports:
+      - "80:80"  # mapped the port from host to container
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf 
+      - ./logs:/var/log/nginx  # correct path and filename
+    networks:
+      - nginx-network
+
+  python-app:
+    image: app  # Should match the image name that we built
+    container_name: app
+    expose:
+      - "8000"  # correct referencing
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    driver: bridge  # Corrected spelling
